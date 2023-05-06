@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:elevation="8dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/practice_game_image"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hands_spelling_word_vote_in_sign_language" />
+
+        <TextView
+            android:id="@+id/practice_game_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/practice_game_image"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/game"
+            android:textColor="@color/dark_gray_blue"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/practice_game_progressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/practice_game_title"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/practice_game_image"
+            android:progress="100"
+            android:progressTint="@color/neon_pink" />
+
+        <TextView
+            android:id="@+id/practice_game_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/practice_game_progressbar"
+            android:layout_toEndOf="@id/practice_game_image"
+            android:padding="10dp"
+            android:text="@string/first_slide_desc" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetectionGames.Practice.SignTheLetterGame"
+    android:background="@color/dark_gray_blue">
+
+    <TextView
+        android:id="@+id/countdown_timer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|start"
+        android:padding="30dp"
+        android:text="10"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:translationZ="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/camera"
+            layout="@layout/activity_camera"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/first_card_letter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_border"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/first_letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="@string/A"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray_blue"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/first_letter_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center|bottom"
+                    android:padding="30dp"
+                    android:text="@string/hint"
+                    android:textStyle="italic"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/neon_pink"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/first_letter_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/hands_spelling_word_vote_in_sign_language"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/second_card_letter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_border"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/second_letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="@string/B"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray_blue"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/second_letter_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center|bottom"
+                    android:padding="30dp"
+                    android:text="@string/hint"
+                    android:textStyle="italic"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/neon_pink"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/second_letter_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/hands_spelling_word_vote_in_sign_language"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/third_card_letter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_border"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/third_letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="@string/C"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray_blue"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/third_letter_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center|bottom"
+                    android:padding="30dp"
+                    android:text="@string/hint"
+                    android:textStyle="italic"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textColor="@color/neon_pink"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/third_letter_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/hands_spelling_word_vote_in_sign_language"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

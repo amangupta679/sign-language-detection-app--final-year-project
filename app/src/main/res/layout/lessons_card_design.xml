@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="320dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/featured_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/lesson_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/hands_spelling_word_vote_in_sign_language"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/lesson_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson"
+            android:textSize="20sp"
+            android:textColor="@color/dark_gray_blue"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <ProgressBar
+            android:id="@+id/lesson_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="60"
+            android:progressTint="@color/neon_pink"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+        <TextView
+            android:id="@+id/lesson_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_slide_desc"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

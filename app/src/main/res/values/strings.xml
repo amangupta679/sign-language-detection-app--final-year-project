@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">SignLanguageDetectionApp</string>
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!-- Titles -->
+    <string name="first_slide_title">Learn Sign Language</string>
+    <string name="second_slide_title">Free practice</string>
+    <string name="third_slide_title">Test your knowledge</string>
+    <string name="fourth_slide_title">Let\'s start</string>
+
+    <!-- Descriptions -->
+    <string name="first_slide_desc">Start learning the Sign Language alphabet in the most fun way possible and get to know all its advantages. You will see that it is not as difficult as it seems!</string>
+    <string name="second_slide_desc">Learn little by little with our free practice lessons and be the fastest to reproduce the gesture sign of the letter that appears on the screen.</string>
+    <string name="third_slide_desc">Once you have finished all the lessons, try the three challenges that we propose to you to keep on practicing and improving your language skills.</string>
+    <string name="fourth_slide_desc">Don\'t wait any longer and let\'s start learning!</string>
+
+    <!-- Buttons -->
+    <string name="skip_button">Skip</string>
+    <string name="next_button">Next</string>
+    <string name="lets_start_button">Let\'s Get Started</string>
+
+    <!-- Home -->
+    <string name="all_lessons_desc">The lessons are divided into three sections. First we will study the signs associated with the first letters of the alphabet and then we will add the other letters. Let\'s get started! </string>
+
+    <!-- Alphabet -->
+    <string name="A" translatable="false">A</string>
+    <string name="B" translatable="false">B</string>
+    <string name="C" translatable="false">C</string>
+    <string name="D" translatable="false">D</string>
+    <string name="E" translatable="false">E</string>
+    <string name="F" translatable="false">F</string>
+    <string name="G" translatable="false">G</string>
+    <string name="H" translatable="false">H</string>
+    <string name="I" translatable="false">I</string>
+    <string name="J" translatable="false">J</string>
+    <string name="K" translatable="false">K</string>
+    <string name="L" translatable="false">L</string>
+    <string name="M" translatable="false">M</string>
+    <string name="N" translatable="false">N</string>
+    <string name="O" translatable="false">O</string>
+    <string name="P" translatable="false">P</string>
+    <string name="Q" translatable="false">Q</string>
+    <string name="R" translatable="false">R</string>
+    <string name="S" translatable="false">S</string>
+    <string name="T" translatable="false">T</string>
+    <string name="U" translatable="false">U</string>
+    <string name="V" translatable="false">V</string>
+    <string name="W" translatable="false">W</string>
+    <string name="X" translatable="false">X</string>
+    <string name="Y" translatable="false">Y</string>
+    <string name="Z" translatable="false">Z</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]" translatable="false">TFL Detect</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="close_button">Close</string>
+
+    <!-- Navigation Drawer -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="well_done">Well done!</string>
+    <string name="let_s_do_it">Let\'s do it!</string>
+    <string name="repeat_lesson">Repeat lesson</string>
+    <string name="between_games_desc">Now continue with a new lesson</string>
+    <string name="hint">hint</string>
+    <string name="about">About</string>
+    <string name="glossary">Glossary</string>
+    <string name="start_learning">Start learning</string>
+    <string name="hi_again">"Hi again, "</string>
+    <string name="username">Username</string>
+    <string name="all_your_lessons">All your lessons</string>
+    <string name="practice_games">Practice Games</string>
+    <string name="view_all">View all</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="practice">Practice</string>
+    <string name="here_are_your_stats">Here are your stats:</string>
+    <string name="lessons_completed">lessons completed</string>
+    <string name="games_completed">games completed</string>
+    <string name="days_learning">days learning</string>
+    <string name="settings">Settings</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_up">Sign up</string>
+    <string name="lesson">Lesson</string>
+    <string name="game">Game</string>
+    <string name="lessons">lessons</string>
+    <string name="games">games</string>
+    <string name="days">days</string>
+    <string name="home">Home</string>
+    <string name="ranking">Ranking</string>
+    <string name="logging_in">Logging In</string>
+    <string name="logged_in">Logged In\n</string>
+    <string name="please_wait">Please, wait</string>
+    <string name="creating_account">Creating your account...</string>
+    <string name="account_created">Account created\n</string>
+    <string name="field_cannot_be_empty">Field cannot be empty</string>
+    <string name="invalid_email">Invalid email address</string>
+    <string name="username_too_long">Username too long</string>
+    <string name="white_spaces">White spaces are not allowed</string>
+    <string name="password_too_weak">Password is too weak</string>
+    <string name="you_have">You have </string>
+    <string name="chances_left"> chances left.</string>
+    <string name="ups" translatable="false">Ups!</string>
+    <string name="got_it">Got it!</string>
+    <string name="oh_no" translatable="false">Oh, no!</string>
+    <string name="try_again">Try again</string>
+    <string name="try_again_desc">No problem. Try again. You can do it!</string>
+    <string name="lesson_1">Lesson 1</string>
+    <string name="lesson_2">Lesson 2</string>
+    <string name="lesson_3">Lesson 3</string>
+    <string name="lesson1_desc">We will go deeper into learning the letters of the alphabet between A and H.</string>
+    <string name="lesson2_desc">We will go deeper into learning the letters of the alphabet between I and P.</string>
+    <string name="lesson3_desc">We will go deeper into learning the letters of the alphabet between Q and Z.</string>
+    <string name="game1_title">Guess the letter sign!</string>
+    <string name="game2_title">Spell the word with signs!</string>
+    <string name="game3_title">Make a match!</string>
+    <string name="game1_desc">Guess the letter sign before time runs out. Challenge yourself and try to do it without the clues. You can do it!</string>
+    <string name="game2_desc">Guess all the letters that form the word that appears on the screen. Be careful, time is running out!</string>
+    <string name="game3_desc">Match the letter with its sign and make a \"match\". You can do it! This is easier than making a match on Tinder!</string>
+    <string name="main_developer">Main Developer</string>
+    <string name="contact">Contact:</string>
+    <string name="my_email" translatable="false">andreaziqing98@gmail.com</string>
+    <string name="work_in_progress">Work in progress...</string>
+
+</resources>

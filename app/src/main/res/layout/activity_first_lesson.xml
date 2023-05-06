@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetectionGames.Lessons.FirstLesson"
+    android:background="@color/dark_gray_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            layout="@layout/activity_camera"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/first_card_letter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/round_border"
+                android:backgroundTint="@color/white"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/first_letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="A"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray_blue"
+                    android:textSize="60sp" />
+
+                <ImageView
+                    android:id="@+id/first_letter_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/first_letter"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/hands_spelling_word_vote_in_sign_language" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/second_card_letter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/round_border"
+                android:backgroundTint="@color/white"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/second_letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="B"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray_blue"
+                    android:textSize="60sp" />
+
+                <ImageView
+                    android:id="@+id/second_letter_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/second_letter"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/hands_spelling_word_vote_in_sign_language" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/third_card_letter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/round_border"
+                android:backgroundTint="@color/white"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/third_letter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="C"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray_blue"
+                    android:textSize="60sp" />
+
+                <ImageView
+                    android:id="@+id/third_letter_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/third_letter"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/hands_spelling_word_vote_in_sign_language" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

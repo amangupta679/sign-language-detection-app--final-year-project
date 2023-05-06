@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetectionGames.Practice.MatchGame"
+    android:background="@color/dark_gray_blue">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/first_card_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/letter_button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <TextView
+                        android:id="@+id/first_letter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="@string/A"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray_blue"
+                        android:textSize="60sp" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/second_card_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/letter_button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <TextView
+                        android:id="@+id/second_letter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="@string/B"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray_blue"
+                        android:textSize="60sp" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/third_card_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/letter_button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <TextView
+                        android:id="@+id/third_letter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="@string/C"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray_blue"
+                        android:textSize="60sp" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/fourth_card_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/letter_button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <TextView
+                        android:id="@+id/fourth_letter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="@string/D"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray_blue"
+                        android:textSize="60sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/fifth_card_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/letter_button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <TextView
+                        android:id="@+id/fifth_letter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="@string/E"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray_blue"
+                        android:textSize="60sp" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/sixth_card_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/letter_button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <TextView
+                        android:id="@+id/sixth_letter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="@string/F"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray_blue"
+                        android:textSize="60sp" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/seventh_card_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/letter_button7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <TextView
+                        android:id="@+id/seventh_letter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="@string/G"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray_blue"
+                        android:textSize="60sp" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/eighth_card_letter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/letter_button8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <TextView
+                        android:id="@+id/eighth_letter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:text="@string/H"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray_blue"
+                        android:textSize="60sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/first_card_image"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/image_button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <ImageView
+                        android:id="@+id/first_letter_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/a" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/second_card_image"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/image_button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <ImageView
+                        android:id="@+id/second_letter_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/b" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/third_card_image"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/image_button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <ImageView
+                        android:id="@+id/third_letter_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/c" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/fourth_card_image"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/image_button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <ImageView
+                        android:id="@+id/fourth_letter_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/d" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/fifth_card_image"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/image_button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <ImageView
+                        android:id="@+id/fifth_letter_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/e" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/sixth_card_image"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/image_button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <ImageView
+                        android:id="@+id/sixth_letter_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/f" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/seventh_card_image"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/image_button7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <ImageView
+                        android:id="@+id/seventh_letter_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/g" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/eighth_card_image"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border"
+                    android:backgroundTint="@color/white">
+
+                    <Button
+                        android:id="@+id/image_button8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <ImageView
+                        android:id="@+id/eighth_letter_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/h" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

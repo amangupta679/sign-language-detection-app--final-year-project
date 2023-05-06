@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:elevation="8dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/practice_home_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/practice_home_game_image"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/hands_spelling_word_vote_in_sign_language"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/practice_home_game_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/game"
+            android:textSize="18sp"
+            android:textColor="@color/dark_gray_blue"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

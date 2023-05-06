@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748166924041",
+    "project_id": "signlanguagedetectionapp",
+    "storage_bucket": "signlanguagedetectionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748166924041:android:4ff2c48dff17beb840b5d8",
+        "android_client_info": {
+          "package_name": "com.andreaziqing.signlanguagedetectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748166924041-p8pp1f9vk4a41i1kn6jsd08qkvesgfmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdLhOh3xYM_XocAWioQ7M9UBzcpVBWfzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748166924041-p8pp1f9vk4a41i1kn6jsd08qkvesgfmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

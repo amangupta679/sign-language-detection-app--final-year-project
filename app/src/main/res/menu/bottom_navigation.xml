@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home_48px"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/practiceFragment"
+        android:icon="@drawable/ic_fitness_center_48px"
+        android:title="@string/practice"/>
+    <item
+        android:id="@+id/rankingFragment"
+        android:icon="@drawable/ic_workspace_premium_48px"
+        android:title="@string/ranking"/>
+    <item
+        android:id="@+id/glossaryFragment"
+        android:icon="@drawable/ic_menu_book_48px"
+        android:title="@string/glossary"/>
+
+</menu>
